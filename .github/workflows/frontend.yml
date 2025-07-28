@@ -20,4 +20,4 @@ jobs:
       - name: Run Cypress E2E Tests
         run: |
           cd frontend
-          npm run test:e2e
+          npm run test
