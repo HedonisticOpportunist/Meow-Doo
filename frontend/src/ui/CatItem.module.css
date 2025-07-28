@@ -1,0 +1,49 @@
+.card {
+  background-color: rgb(26, 122, 148);
+  border-radius: 5px;
+  margin: 10px 0;
+  width: 400px;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgba(35, 25, 46, 0.7);
+  margin-left: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+
+.buttons button {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+}
+
+.buttons button:nth-child(1) {
+  color: rgb(168, 68, 161);
+  border: 2px solid rgb(70, 49, 99);
+}
+.buttons button:nth-child(2) {
+  color: rgb(10, 31, 125);
+  border: 2px solid rgb(38, 40, 149);
+}
+
+.buttons button:hover {
+  scale: 1.1;
+}

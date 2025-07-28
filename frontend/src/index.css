@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Barrio&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: rgb(66, 23, 94);
+  background: linear-gradient(
+    90deg,
+    rgb(143, 58, 93) 16%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  font-family: "Barrio", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
