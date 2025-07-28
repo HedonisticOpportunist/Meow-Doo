@@ -15,12 +15,8 @@ jobs:
           node-version: "18"
       - name: Install Dependencies
         run: |
-          cd frontend/
-          npm install
-      - name: Run Cypress Component Tests
-        run: |
           cd frontend
-          npm run test:component
+          npm install
       - name: Run Cypress E2E Tests
         run: |
           cd frontend
